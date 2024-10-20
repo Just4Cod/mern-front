@@ -3,7 +3,7 @@ import { ConsoleSqlOutlined, DeleteFilled, DeleteOutlined, EditFilled, EditOutli
 import { useState } from "react";
 import axios from 'axios';
 import useSwr, { mutate } from "swr";
-axios.defaults.baseURL = 'http://localhost:8080';
+axios.defaults.baseURL = 'https://mern-back-1-lfgb.onrender.com';
 const App = () => {
   const [regForm] = Form.useForm();
   const [modal, setModal] = useState(false);
