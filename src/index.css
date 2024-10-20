@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ant-pagination-item-link {
+    background-color: #2563EB !important;
+    color: white !important;
+    border-radius: 4px !important;
+    border: none !important;
+    font-size: 20px !important;
+}
+
+.ant-pagination-item-link:hover {
+    background-color: #2563EB !important;
+    color: #fff !important;
+}
+
+.custom-select .ant-select-selector {
+    border-radius: 0 !important;
+}  
